@@ -15,7 +15,7 @@ header {
                 text-decoration: none;
                 color: black;
                 font-weight: bold;
-                padding-bottom: 50px;
+                padding-bottom: 40px;
                 text-transform: uppercase;
     
                 &:hover {
@@ -23,6 +23,139 @@ header {
                     border-bottom: 5px solid #0C7CEC;
                 }
             }
+        }
+    }
+
+    .input-group {
+        border-bottom: 5px solid #0C7CEC;
+    }
+    .form-control{
+        border: none;
+    }
+    .bottom-border{
+        border: none;
+    }
+    .btn-bottom{
+        border: none;
+        .bi-search{
+            font-weight: bolder;
+        }
+    }
+}
+
+footer {
+    .bg-grey {
+        background-color: rgb(45, 45, 45);
+        .container {
+            .row {
+                .col {
+                    .btn {
+                        border-radius: 0;
+                        border: 2px solid #0C7CEC;
+                        color: white;
+                        font-weight: bold;
+                    }
+                    h4 {
+                        color: #0C7CEC;
+                        font-weight: bold;
+                    }
+                    ul {
+                        li {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .jumbo {
+        background-image: url('../images/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .row {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-image: url('../images/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            .col-2 {
+                h3 {
+                    color: white;
+                    margin: 20px 0;
+                }
+                ul{
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: gray;
+    
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    .bg-jumbotron {
+        background-image: url(../images/jumbotron.jpg);
+        background-repeat: no-repeat;
+        height: 450px;
+
+        .badge {
+            background-color: #0C7CEC;
+            font-size: 30px;
+            padding: 14px 40px;
+            bottom: -25px;
+            left: 190px;
+        }
+    }
+
+    .bg-grey {
+        background-color: rgb(39, 39, 39);
+    }
+
+    .card {
+        img {
+            width: 200px;
+            height: 250px;
+        }
+    }
+
+    .bg-primary {
+        background-color: #0C7CEC;
+    }
+    .content-grey {
+        color: white;
+    }
+    .content-primary {
+        color: white;
+    }
+    .col-12 {
+        p {
+            margin: 0;
+            font-size: 30px;
+        }
+    }
+
+    .col {
+        align-self: center;
+        text-align: center;
+
+        img {
+            max-width: 60px;
+            max-height: 60px;
+        }
+
+        p {
+            display: inline-block;
+            margin-left: 10px;
+            margin-bottom: 0;
+            font-size: 16px;
         }
     }
 }

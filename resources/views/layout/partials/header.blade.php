@@ -40,9 +40,9 @@
             </div>
             <div class="col-2 align-self-center">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
-                </div>
+                    <input type="text" class="form-control bottom-border" placeholder="Search">
+                    <button class="btn btn-bottom" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                </div> 
             </div>
         </div>
     </div>
